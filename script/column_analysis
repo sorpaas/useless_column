@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 APP_ROOT = File.join(File.dirname(__FILE__), '..')
+APP_PATH = File.expand_path('config/application', ARGV[0])
 
-require 'useless_column'
+require 'rails/all'
+require File.expand_path('../../lib/useless_column', __FILE__)
+
 UselessColumn.start!(ARGV[0], [])

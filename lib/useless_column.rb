@@ -1,3 +1,5 @@
+$:.push File.expand_path("..", __FILE__)
+
 require 'useless_column/runtime'
 require 'rails/commands/commands_tasks'
 
