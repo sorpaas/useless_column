@@ -1,0 +1,3 @@
+module UselessColumn
+
+end
